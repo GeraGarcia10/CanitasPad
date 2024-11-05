@@ -19,5 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "CanitasApp"
+rootProject.name = "CanitasPadv2"
 include(":app")
+ 

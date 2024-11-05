@@ -4,12 +4,12 @@ plugins {
 }
 
 android {
-    namespace = "com.example.canitasapp"
+    namespace = "com.lggpmlrg.canitaspadv2"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.canitasapp"
-        minSdk = 21
+        applicationId = "com.lggpmlrg.canitaspadv2"
+        minSdk = 24
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -59,6 +59,9 @@ dependencies {
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
+    implementation(libs.androidx.room.ktx)
+    implementation(libs.androidx.material3.window.size.class. android)
+    implementation(libs.androidx.navigation.runtime.ktx)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
